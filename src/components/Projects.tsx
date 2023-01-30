@@ -8,8 +8,8 @@ const Projects = () => {
       img: cnoProject,
       title: "cnoProject",
       desc: " A Todo list project. Built with Vue.js, Tailwind CSS, and Firebase.",
-      live: "https://ong22280.github.io/cnoProject/",
-      code: "https://github.com/ong22280/cnoProject",
+      live: "https://ong22280.github.io/CNO-PROJECT/",
+      code: "https://github.com/ong22280/CNO-PROJECT/",
     },
     {
       img: healthU,
