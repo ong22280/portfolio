@@ -29,7 +29,7 @@ const About = () => {
           <img
             src={AboutImg}
             alt="coding illustration"
-            className="lgw-[80%] md:ml-auto rounded-full max-w-[300px] min-w-[200px]"
+            className="lgw-[80%] md:ml-auto rounded-full max-w-[300px] min-w-[200px] border-b-[8px] border-r-[8px]"
           />
         </div>
       </div>

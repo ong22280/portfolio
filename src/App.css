@@ -16,11 +16,13 @@ body {
 
 /* color */
 .bg-primary {
-    background: #000018;
+    /* background: #000018; */
+    background: linear-gradient(90deg, #000018, #000 );
 }
 
 .bg-secondery {
     background: #000028;
+    
 }
 
 .bg-accent {
