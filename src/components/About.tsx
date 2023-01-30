@@ -25,7 +25,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="about-img">
+        <div className="flex about-img justify-center">
           <img
             src={AboutImg}
             alt="coding illustration"
