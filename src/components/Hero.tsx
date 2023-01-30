@@ -2,15 +2,9 @@ import React from "react";
 
 import {
   AiOutlineBook,
-  AiOutlineCalendar,
-  AiOutlineDash,
-  AiOutlineDashboard,
-  AiOutlineDesktop,
   AiOutlineFacebook,
   AiOutlineGithub,
   AiOutlineInstagram,
-  AiOutlineNotification,
-  AiOutlineProfile,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -19,7 +13,8 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hi, <br />I am <span className="text-accent">O</span>ng <br />
+            Hi, <br />I am <span className="text-accent">Ong</span>
+            <br />
             student of Computer Science
           </h1>
 
@@ -58,7 +53,7 @@ const Hero = () => {
 
           <a
             href="/#projects"
-            className=" btn bg-accent  border-2 border-[#2F00F0] text-white px-12 py-3 hover:bg-transparent"
+            className=" btn bg-accent  border-2 border-[#2F00F0] text-white px-12 py-3 hover:bg-transparent rounded-full"
           >
             See Projects
           </a>

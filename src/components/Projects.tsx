@@ -24,7 +24,7 @@ const Projects = () => {
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[140px] border-b-blue-800 pb-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[8px] w-[150px] border-b-blue-800 pb-2 rounded-r-full">
             Projects
           </h2>
 
@@ -40,8 +40,8 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title}/>
-              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+              <img src={project.img} alt={project.title} className="rounded-xl h-full" />
+              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-slate-900  opacity-0 duration-500 justify-center flex-col hover:opacity-95 rounded-3xl ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
                 </p>
@@ -49,13 +49,13 @@ const Projects = () => {
                 <div className="mx-auto">
                   <a
                     href={project.live}
-                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
+                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold rounded-full"
                   >
                     Live
                   </a>
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold rounded-full"
                   >
                     Code
                   </a>
