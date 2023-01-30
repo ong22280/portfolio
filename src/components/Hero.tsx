@@ -1,9 +1,16 @@
 import React from "react";
 
 import {
+  AiOutlineBook,
+  AiOutlineCalendar,
+  AiOutlineDash,
+  AiOutlineDashboard,
+  AiOutlineDesktop,
   AiOutlineFacebook,
   AiOutlineGithub,
   AiOutlineInstagram,
+  AiOutlineNotification,
+  AiOutlineProfile,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -40,11 +47,18 @@ const Hero = () => {
               {" "}
               <AiOutlineInstagram size={40} />{" "}
             </a>
+            <a
+              href="https://beryl-court-dae.notion.site/Ong-s-dashboard-bb5d16daf060471586098d02bedeb1a4"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {" "}
+              <AiOutlineBook size={40} />{" "}
+            </a>
           </div>
 
           <a
             href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-12 py-3 hover:bg-transparent"
           >
             See Projects
           </a>
