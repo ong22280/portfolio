@@ -16,19 +16,19 @@ body {
 
 /* color */
 .bg-primary {
-    background: #0F172A;
+    background: #000018;
 }
 
 .bg-secondery {
-    background: #1E293B;
+    background: #000028;
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: #00001F;
 }
 
 .text-accent {
-    color: #7477FF;
+    color: #0000A0;
 }
 
 
@@ -41,7 +41,7 @@ nav li a:hover {
 }
 
 .mobile-nav {
-    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-75;
 }
 
 

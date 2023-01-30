@@ -15,13 +15,13 @@ const Header = () => {
       {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex">
-          <li>
+          <li className="mx-8">
             <a href="/#about">About</a>
           </li>
-          <li>
+          <li className="mx-8">
             <a href="/#projects">Projects</a>
           </li>
-          <li>
+          <li className="mx-8">
             <a href="/#contact">Contact</a>
           </li>
         </ul>
